@@ -145,7 +145,7 @@ document.getElementById("copy-btn").addEventListener("click", () => {
 
   document.getElementById("copy-btn").textContent = "✅ Copied!";
   setTimeout(() => {
-    document.getElementById("copy-btn").textContent = " Copy";
+    document.getElementById("copy-btn").textContent = "Copy";
   }, 1500);
 });
 
@@ -157,3 +157,4 @@ document.addEventListener("keydown", (e) => {
   }
 
 });
+
